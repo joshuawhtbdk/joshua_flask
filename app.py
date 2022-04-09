@@ -19,4 +19,4 @@ def page_not_found(error):
     return render_template('page_not_found.html')
 
 if __name__ == '__main__':
-    app.run(host='222.101.33.71',port=80, debug=True)
+    app.run(host='0.0.0.0',port=80, debug=True)
